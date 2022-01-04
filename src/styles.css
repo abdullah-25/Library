@@ -1,3 +1,70 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
 }
+
+.container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.row{
+  margin: 0.5rem;
+}
+
+
+
+table,th,td{
+  border: solid 1px black;
+  border-collapse: collapse;
+  font-size: 1rem;
+  padding: 0.4rem;
+  text-align: center;
+}
+
+th{
+  background-color: lightpink;
+}
+
+#btnNewBook{
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+#btnAdd{
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+}
+
+label{
+  margin-top: 1rem;
+}
+.hidden{
+  display: none;
+}
+
+.notHidden{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  
+  font-size: 1rem;
+}
+.radios{
+  flex-direction: row;
+  margin: 0.5rem 0rem;
+}
+
+#resultAdd{
+  text-align: center;
+}
+
+
+
+
+
